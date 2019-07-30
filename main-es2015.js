@@ -217,7 +217,7 @@ module.exports = "<mat-accordion>\n  <mat-expansion-panel>\n    <mat-expansion-p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <img class=\"bg\" src=\"assets/pictures/background.jpg\"> -->\n<div class=\"bg\"></div>\n\n<div class=\"header_section\">\n  <!-- <a mat-raised-button routerLink=\"/main\"><b>Home</b></a>&nbsp; -->\n  <a mat-raised-button href=\"assets/cv.pdf\"><b>CV</b></a>&nbsp;\n  <a mat-raised-button (click)=\"openBlogSelector()\"><b>Blog</b></a>&nbsp;\n  <a mat-raised-button (click)=\"openDemoSelector()\"><b>Demos</b></a>\n  <!-- <button mat-raised-button [matMenuTriggerFor]=\"menu\"><b>Portfolio</b></button>\n  <mat-menu #menu=\"matMenu\">\n    <a mat-menu-item routerLink=\"/cavity-flow\">Fluid Dynamics</a>\n    <a mat-menu-item routerLink=\"/channel-flow\">User Interfaces</a>\n    <a mat-menu-item routerLink=\"/complex2d\">Deep Networks</a>\n    <a mat-menu-item routerLink=\"/float-universe\"></a>\n    <a mat-menu-item routerLink=\"/image-server\"></a>\n    <a mat-menu-item routerLink=\"/integer-universe\"></a>\n    <a mat-menu-item routerLink=\"/one-dimensional\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n  </mat-menu> -->\n</div>\n\n<div class=\"centered_section\">\n  <img class=\"profile_image\" src=\"assets/pictures/profile.png\">\n  <div class=\"profile_info\">\n    <h1>Lucas Jones</h1><br>\n    Deep Learning // Systems Engineering // Climate Science<br><br>\n    <a href='mailto:lucasaj2@gmail.com'><img width='30px' src=\"assets/icons/mail_icon.svg\"></a>&nbsp;\n    <a href='https://www.linkedin.com/in/lucas-jones-62769949'><img width='30px' src=\"assets/icons/linkdin_icon.svg\"></a>&nbsp;\n    <a href='https://github.com/LucasAJ'><img width='30px' src=\"assets/icons/github_icon.svg\"></a>\n  </div>\n</div>\n"
+module.exports = "<!-- <img class=\"bg\" src=\"assets/pictures/background.jpg\"> -->\n<div class=\"bg\"></div>\n\n<div class=\"header_section\">\n  <!-- <a mat-raised-button routerLink=\"/main\"><b>Home</b></a>&nbsp; -->\n  <a mat-raised-button href=\"assets/cv.pdf\"><b>CV</b></a>&nbsp;\n  <a mat-raised-button (click)=\"openBlogSelector()\"><b>Articles</b></a>&nbsp;\n  <a mat-raised-button (click)=\"openDemoSelector()\"><b>Demos</b></a>\n  <!-- <button mat-raised-button [matMenuTriggerFor]=\"menu\"><b>Portfolio</b></button>\n  <mat-menu #menu=\"matMenu\">\n    <a mat-menu-item routerLink=\"/cavity-flow\">Fluid Dynamics</a>\n    <a mat-menu-item routerLink=\"/channel-flow\">User Interfaces</a>\n    <a mat-menu-item routerLink=\"/complex2d\">Deep Networks</a>\n    <a mat-menu-item routerLink=\"/float-universe\"></a>\n    <a mat-menu-item routerLink=\"/image-server\"></a>\n    <a mat-menu-item routerLink=\"/integer-universe\"></a>\n    <a mat-menu-item routerLink=\"/one-dimensional\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n    <a mat-menu-item routerLink=\"/\"></a>\n  </mat-menu> -->\n</div>\n\n<div class=\"centered_section\">\n  <img class=\"profile_image\" src=\"assets/pictures/profile.png\">\n  <div class=\"profile_info\">\n    <br><br>\n    <h1>Lucas Jones</h1><br>\n    Deep Learning // Systems Engineering // Climate Science<br><br>\n    <a href='mailto:lucasaj2@gmail.com'><img width='30px' src=\"assets/icons/mail_icon.svg\"></a>&nbsp;\n    <a href='https://www.linkedin.com/in/lucas-jones-62769949'><img width='30px' src=\"assets/icons/linkdin_icon.svg\"></a>&nbsp;\n    <a href='https://github.com/LucasAJ'><img width='30px' src=\"assets/icons/github_icon.svg\"></a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -372,28 +372,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm2015/flex-layout.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! .//app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var plotly_js_dist_plotly_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! plotly.js/dist/plotly.js */ "./node_modules/plotly.js/dist/plotly.js");
-/* harmony import */ var plotly_js_dist_plotly_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(plotly_js_dist_plotly_js__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var angular_plotly_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! angular-plotly.js */ "./node_modules/angular-plotly.js/fesm2015/angular-plotly.js.js");
-/* harmony import */ var _cv_cv_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./cv/cv.component */ "./src/app/cv/cv.component.ts");
-/* harmony import */ var _main_main_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./main/main.component */ "./src/app/main/main.component.ts");
-/* harmony import */ var _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./blog-selector/blog-selector.component */ "./src/app/blog-selector/blog-selector.component.ts");
-/* harmony import */ var _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./demo-selector/demo-selector.component */ "./src/app/demo-selector/demo-selector.component.ts");
-/* harmony import */ var _demos_threejs_threejs_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./demos/threejs/threejs.component */ "./src/app/demos/threejs/threejs.component.ts");
-/* harmony import */ var _demos_integer_universe_integer_universe_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./demos/integer-universe/integer-universe.component */ "./src/app/demos/integer-universe/integer-universe.component.ts");
-/* harmony import */ var _demos_float_universe_float_universe_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./demos/float-universe/float-universe.component */ "./src/app/demos/float-universe/float-universe.component.ts");
-/* harmony import */ var _demos_telephone_world_telephone_world_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./demos/telephone-world/telephone-world.component */ "./src/app/demos/telephone-world/telephone-world.component.ts");
-/* harmony import */ var _demos_one_dimensional_one_dimensional_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./demos/one-dimensional/one-dimensional.component */ "./src/app/demos/one-dimensional/one-dimensional.component.ts");
-/* harmony import */ var _demos_two_dimensional_two_dimensional_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./demos/two-dimensional/two-dimensional.component */ "./src/app/demos/two-dimensional/two-dimensional.component.ts");
-/* harmony import */ var _demos_complex2d_complex2d_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./demos/complex2d/complex2d.component */ "./src/app/demos/complex2d/complex2d.component.ts");
-/* harmony import */ var _demos_cavity_flow_cavity_flow_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./demos/cavity-flow/cavity-flow.component */ "./src/app/demos/cavity-flow/cavity-flow.component.ts");
-/* harmony import */ var _demos_channel_flow_channel_flow_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./demos/channel-flow/channel-flow.component */ "./src/app/demos/channel-flow/channel-flow.component.ts");
-/* harmony import */ var _demos_image_server_image_server_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./demos/image-server/image-server.component */ "./src/app/demos/image-server/image-server.component.ts");
-/* harmony import */ var _blog_gee_gee_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./blog/gee/gee.component */ "./src/app/blog/gee/gee.component.ts");
-/* harmony import */ var _blog_lfca_lfca_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./blog/lfca/lfca.component */ "./src/app/blog/lfca/lfca.component.ts");
-/* harmony import */ var _blog_gan_gan_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./blog/gan/gan.component */ "./src/app/blog/gan/gan.component.ts");
-/* harmony import */ var _utilities_statistics_service__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./utilities/statistics.service */ "./src/app/utilities/statistics.service.ts");
-/* harmony import */ var _utilities_matrix_math_service__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./utilities/matrix-math.service */ "./src/app/utilities/matrix-math.service.ts");
+/* harmony import */ var _cv_cv_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./cv/cv.component */ "./src/app/cv/cv.component.ts");
+/* harmony import */ var _main_main_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./main/main.component */ "./src/app/main/main.component.ts");
+/* harmony import */ var _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./blog-selector/blog-selector.component */ "./src/app/blog-selector/blog-selector.component.ts");
+/* harmony import */ var _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./demo-selector/demo-selector.component */ "./src/app/demo-selector/demo-selector.component.ts");
+/* harmony import */ var _demos_threejs_threejs_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./demos/threejs/threejs.component */ "./src/app/demos/threejs/threejs.component.ts");
+/* harmony import */ var _demos_integer_universe_integer_universe_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./demos/integer-universe/integer-universe.component */ "./src/app/demos/integer-universe/integer-universe.component.ts");
+/* harmony import */ var _demos_float_universe_float_universe_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./demos/float-universe/float-universe.component */ "./src/app/demos/float-universe/float-universe.component.ts");
+/* harmony import */ var _demos_telephone_world_telephone_world_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./demos/telephone-world/telephone-world.component */ "./src/app/demos/telephone-world/telephone-world.component.ts");
+/* harmony import */ var _demos_one_dimensional_one_dimensional_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./demos/one-dimensional/one-dimensional.component */ "./src/app/demos/one-dimensional/one-dimensional.component.ts");
+/* harmony import */ var _demos_two_dimensional_two_dimensional_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./demos/two-dimensional/two-dimensional.component */ "./src/app/demos/two-dimensional/two-dimensional.component.ts");
+/* harmony import */ var _demos_complex2d_complex2d_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./demos/complex2d/complex2d.component */ "./src/app/demos/complex2d/complex2d.component.ts");
+/* harmony import */ var _demos_cavity_flow_cavity_flow_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./demos/cavity-flow/cavity-flow.component */ "./src/app/demos/cavity-flow/cavity-flow.component.ts");
+/* harmony import */ var _demos_channel_flow_channel_flow_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./demos/channel-flow/channel-flow.component */ "./src/app/demos/channel-flow/channel-flow.component.ts");
+/* harmony import */ var _demos_image_server_image_server_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./demos/image-server/image-server.component */ "./src/app/demos/image-server/image-server.component.ts");
+/* harmony import */ var _blog_gee_gee_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./blog/gee/gee.component */ "./src/app/blog/gee/gee.component.ts");
+/* harmony import */ var _blog_lfca_lfca_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./blog/lfca/lfca.component */ "./src/app/blog/lfca/lfca.component.ts");
+/* harmony import */ var _blog_gan_gan_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./blog/gan/gan.component */ "./src/app/blog/gan/gan.component.ts");
+/* harmony import */ var _utilities_statistics_service__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./utilities/statistics.service */ "./src/app/utilities/statistics.service.ts");
+/* harmony import */ var _utilities_matrix_math_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./utilities/matrix-math.service */ "./src/app/utilities/matrix-math.service.ts");
 
 // base components
 
@@ -412,9 +409,10 @@ __webpack_require__.r(__webpack_exports__);
 // import { PlotlyModule } from 'plotly.js-dist';
 
 // import { HttpClientModule } from '@angular/common/http'
-
-
-angular_plotly_js__WEBPACK_IMPORTED_MODULE_11__["PlotlyModule"].plotlyjs = plotly_js_dist_plotly_js__WEBPACK_IMPORTED_MODULE_10__;
+// import * as PlotlyJS from 'plotly.js/dist/plotly.js';
+// import { PlotlyModule } from 'angular-plotly.js';
+//
+// PlotlyModule.plotlyjs = PlotlyJS;
 // Core Components
 
 
@@ -444,23 +442,23 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-            _cv_cv_component__WEBPACK_IMPORTED_MODULE_12__["CvComponent"],
-            _main_main_component__WEBPACK_IMPORTED_MODULE_13__["MainComponent"],
-            _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_15__["DemoSelectorComponent"],
-            _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_14__["BlogSelectorComponent"],
-            _demos_threejs_threejs_component__WEBPACK_IMPORTED_MODULE_16__["ThreejsComponent"],
-            _demos_integer_universe_integer_universe_component__WEBPACK_IMPORTED_MODULE_17__["IntegerUniverseComponent"],
-            _demos_float_universe_float_universe_component__WEBPACK_IMPORTED_MODULE_18__["FloatUniverseComponent"],
-            _demos_telephone_world_telephone_world_component__WEBPACK_IMPORTED_MODULE_19__["TelephoneWorldComponent"],
-            _demos_one_dimensional_one_dimensional_component__WEBPACK_IMPORTED_MODULE_20__["OneDimensionalComponent"],
-            _demos_two_dimensional_two_dimensional_component__WEBPACK_IMPORTED_MODULE_21__["TwoDimensionalComponent"],
-            _demos_complex2d_complex2d_component__WEBPACK_IMPORTED_MODULE_22__["Complex2dComponent"],
-            _demos_cavity_flow_cavity_flow_component__WEBPACK_IMPORTED_MODULE_23__["CavityFlowComponent"],
-            _demos_channel_flow_channel_flow_component__WEBPACK_IMPORTED_MODULE_24__["ChannelFlowComponent"],
-            _demos_image_server_image_server_component__WEBPACK_IMPORTED_MODULE_25__["ImageServerComponent"],
-            _blog_gee_gee_component__WEBPACK_IMPORTED_MODULE_26__["GEEComponent"],
-            _blog_lfca_lfca_component__WEBPACK_IMPORTED_MODULE_27__["LFCAComponent"],
-            _blog_gan_gan_component__WEBPACK_IMPORTED_MODULE_28__["GANComponent"]
+            _cv_cv_component__WEBPACK_IMPORTED_MODULE_10__["CvComponent"],
+            _main_main_component__WEBPACK_IMPORTED_MODULE_11__["MainComponent"],
+            _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_13__["DemoSelectorComponent"],
+            _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_12__["BlogSelectorComponent"],
+            _demos_threejs_threejs_component__WEBPACK_IMPORTED_MODULE_14__["ThreejsComponent"],
+            _demos_integer_universe_integer_universe_component__WEBPACK_IMPORTED_MODULE_15__["IntegerUniverseComponent"],
+            _demos_float_universe_float_universe_component__WEBPACK_IMPORTED_MODULE_16__["FloatUniverseComponent"],
+            _demos_telephone_world_telephone_world_component__WEBPACK_IMPORTED_MODULE_17__["TelephoneWorldComponent"],
+            _demos_one_dimensional_one_dimensional_component__WEBPACK_IMPORTED_MODULE_18__["OneDimensionalComponent"],
+            _demos_two_dimensional_two_dimensional_component__WEBPACK_IMPORTED_MODULE_19__["TwoDimensionalComponent"],
+            _demos_complex2d_complex2d_component__WEBPACK_IMPORTED_MODULE_20__["Complex2dComponent"],
+            _demos_cavity_flow_cavity_flow_component__WEBPACK_IMPORTED_MODULE_21__["CavityFlowComponent"],
+            _demos_channel_flow_channel_flow_component__WEBPACK_IMPORTED_MODULE_22__["ChannelFlowComponent"],
+            _demos_image_server_image_server_component__WEBPACK_IMPORTED_MODULE_23__["ImageServerComponent"],
+            _blog_gee_gee_component__WEBPACK_IMPORTED_MODULE_24__["GEEComponent"],
+            _blog_lfca_lfca_component__WEBPACK_IMPORTED_MODULE_25__["LFCAComponent"],
+            _blog_gan_gan_component__WEBPACK_IMPORTED_MODULE_26__["GANComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -474,16 +472,16 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatRadioModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatExpansionModule"],
             _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialogModule"],
-            _angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"],
-            angular_plotly_js__WEBPACK_IMPORTED_MODULE_11__["PlotlyModule"]
+            _angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]
+            // PlotlyModule
         ],
         providers: [
-            _utilities_statistics_service__WEBPACK_IMPORTED_MODULE_29__["StatisticsService"],
-            _utilities_matrix_math_service__WEBPACK_IMPORTED_MODULE_30__["MatrixMathService"]
+            _utilities_statistics_service__WEBPACK_IMPORTED_MODULE_27__["StatisticsService"],
+            _utilities_matrix_math_service__WEBPACK_IMPORTED_MODULE_28__["MatrixMathService"]
         ],
         entryComponents: [
-            _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_15__["DemoSelectorComponent"],
-            _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_14__["BlogSelectorComponent"]
+            _demo_selector_demo_selector_component__WEBPACK_IMPORTED_MODULE_13__["DemoSelectorComponent"],
+            _blog_selector_blog_selector_component__WEBPACK_IMPORTED_MODULE_12__["BlogSelectorComponent"]
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })
@@ -2829,7 +2827,7 @@ TwoDimensionalComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body, html {\r\n  margin: 0;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n\r\n.navigation_button {\r\n  color: #FFFFFF;\r\n  padding: 2px 6px 2px 6px;\r\n}\r\n\r\n.header_section {\r\n  position: absolute;\r\n  top: 8px;\r\n  left: 16px;\r\n  /* border-style: dashed; */\r\n}\r\n\r\n.centered_section {\r\n  position: absolute;\r\n  color: #FFFFFF;\r\n  top: 50%;\r\n  left: 50%;\r\n  height: 30%;\r\n  width: 40%;\r\n  -webkit-transform: translate(-50%, -50%);\r\n          transform: translate(-50%, -50%);\r\n  /* border-style: dashed; */\r\n}\r\n\r\n.profile_image {\r\n  max-width:100%;\r\n  max-height:100%;\r\n  float: left;\r\n  margin: 20px;\r\n  vertical-align: middle;\r\n}\r\n\r\n.profile_info {\r\n  vertical-align: middle;\r\n  font: bold 14px Arial;\r\n  color: #000000;\r\n  /* border-style: dashed; */\r\n  /* width: 50%; */\r\n}\r\n\r\nh1 {\r\n  font: bold 18px Arial;\r\n  /* margin: 0; */\r\n  margin-left: 30;\r\n}\r\n\r\n.bg {\r\n  background-image: url('/assets/pictures/background.jpg');\r\n  width: 100%;\r\n  height: 100%;\r\n  background-position: center;\r\n  background-size: cover;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1QsWUFBWTtFQUNaLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCx3QkFBd0I7QUFDMUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFVBQVU7RUFDViwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsY0FBYztFQUNkLFFBQVE7RUFDUixTQUFTO0VBQ1QsV0FBVztFQUNYLFVBQVU7RUFDVix3Q0FBZ0M7VUFBaEMsZ0NBQWdDO0VBQ2hDLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxlQUFlO0VBQ2YsV0FBVztFQUNYLFlBQVk7RUFDWixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxzQkFBc0I7RUFDdEIscUJBQXFCO0VBQ3JCLGNBQWM7RUFDZCwwQkFBMEI7RUFDMUIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usd0RBQXdEO0VBQ3hELFdBQVc7RUFDWCxZQUFZO0VBQ1osMkJBQTJCO0VBQzNCLHNCQUFzQjtBQUN4QiIsImZpbGUiOiJzcmMvYXBwL21haW4vbWFpbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSwgaHRtbCB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG59XHJcblxyXG4ubmF2aWdhdGlvbl9idXR0b24ge1xyXG4gIGNvbG9yOiAjRkZGRkZGO1xyXG4gIHBhZGRpbmc6IDJweCA2cHggMnB4IDZweDtcclxufVxyXG5cclxuLmhlYWRlcl9zZWN0aW9uIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiA4cHg7XHJcbiAgbGVmdDogMTZweDtcclxuICAvKiBib3JkZXItc3R5bGU6IGRhc2hlZDsgKi9cclxufVxyXG5cclxuLmNlbnRlcmVkX3NlY3Rpb24ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBjb2xvcjogI0ZGRkZGRjtcclxuICB0b3A6IDUwJTtcclxuICBsZWZ0OiA1MCU7XHJcbiAgaGVpZ2h0OiAzMCU7XHJcbiAgd2lkdGg6IDQwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcclxuICAvKiBib3JkZXItc3R5bGU6IGRhc2hlZDsgKi9cclxufVxyXG5cclxuLnByb2ZpbGVfaW1hZ2Uge1xyXG4gIG1heC13aWR0aDoxMDAlO1xyXG4gIG1heC1oZWlnaHQ6MTAwJTtcclxuICBmbG9hdDogbGVmdDtcclxuICBtYXJnaW46IDIwcHg7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxuLnByb2ZpbGVfaW5mbyB7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICBmb250OiBib2xkIDE0cHggQXJpYWw7XHJcbiAgY29sb3I6ICMwMDAwMDA7XHJcbiAgLyogYm9yZGVyLXN0eWxlOiBkYXNoZWQ7ICovXHJcbiAgLyogd2lkdGg6IDUwJTsgKi9cclxufVxyXG5cclxuaDEge1xyXG4gIGZvbnQ6IGJvbGQgMThweCBBcmlhbDtcclxuICAvKiBtYXJnaW46IDA7ICovXHJcbiAgbWFyZ2luLWxlZnQ6IDMwO1xyXG59XHJcblxyXG4uYmcge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnL2Fzc2V0cy9waWN0dXJlcy9iYWNrZ3JvdW5kLmpwZycpO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG4iXX0= */"
+module.exports = "body, html {\r\n  margin: 0;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n\r\n.navigation_button {\r\n  color: #FFFFFF;\r\n  padding: 2px 6px 2px 6px;\r\n}\r\n\r\n.header_section {\r\n  position: absolute;\r\n  top: 8px;\r\n  left: 16px;\r\n  /* left: 50%; */\r\n  /* transform: translate(-50%, 0); */\r\n  /* border-style: dashed; */\r\n}\r\n\r\n.centered_section {\r\n  position: absolute;\r\n  color: #FFFFFF;\r\n  top: 50%;\r\n  left: 50%;\r\n  height: 30%;\r\n  width: 40%;\r\n  -webkit-transform: translate(-50%, -50%);\r\n          transform: translate(-50%, -50%);\r\n  /* border-style: dashed; */\r\n}\r\n\r\n.profile_image {\r\n  max-width:100%;\r\n  max-height:100%;\r\n  float: left;\r\n  margin: 20px;\r\n  vertical-align: middle;\r\n}\r\n\r\n.profile_info {\r\n  vertical-align: middle;\r\n  font: bold 14px Arial;\r\n  color: #000000;\r\n  /* border-style: dashed; */\r\n  /* width: 50%; */\r\n}\r\n\r\nh1 {\r\n  font: bold 18px Arial;\r\n  /* margin: 0; */\r\n  margin-left: 30;\r\n}\r\n\r\n.bg {\r\n  background-image: url('/assets/pictures/background.jpg');\r\n  width: 100%;\r\n  height: 100%;\r\n  background-position: center;\r\n  background-size: cover;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1QsWUFBWTtFQUNaLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCx3QkFBd0I7QUFDMUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFVBQVU7RUFDVixlQUFlO0VBQ2YsbUNBQW1DO0VBQ25DLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixjQUFjO0VBQ2QsUUFBUTtFQUNSLFNBQVM7RUFDVCxXQUFXO0VBQ1gsVUFBVTtFQUNWLHdDQUFnQztVQUFoQyxnQ0FBZ0M7RUFDaEMsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixXQUFXO0VBQ1gsWUFBWTtFQUNaLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsY0FBYztFQUNkLDBCQUEwQjtFQUMxQixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGVBQWU7QUFDakI7O0FBRUE7RUFDRSx3REFBd0Q7RUFDeEQsV0FBVztFQUNYLFlBQVk7RUFDWiwyQkFBMkI7RUFDM0Isc0JBQXNCO0FBQ3hCIiwiZmlsZSI6InNyYy9hcHAvbWFpbi9tYWluLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5LCBodG1sIHtcclxuICBtYXJnaW46IDA7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbn1cclxuXHJcbi5uYXZpZ2F0aW9uX2J1dHRvbiB7XHJcbiAgY29sb3I6ICNGRkZGRkY7XHJcbiAgcGFkZGluZzogMnB4IDZweCAycHggNnB4O1xyXG59XHJcblxyXG4uaGVhZGVyX3NlY3Rpb24ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDhweDtcclxuICBsZWZ0OiAxNnB4O1xyXG4gIC8qIGxlZnQ6IDUwJTsgKi9cclxuICAvKiB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAwKTsgKi9cclxuICAvKiBib3JkZXItc3R5bGU6IGRhc2hlZDsgKi9cclxufVxyXG5cclxuLmNlbnRlcmVkX3NlY3Rpb24ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBjb2xvcjogI0ZGRkZGRjtcclxuICB0b3A6IDUwJTtcclxuICBsZWZ0OiA1MCU7XHJcbiAgaGVpZ2h0OiAzMCU7XHJcbiAgd2lkdGg6IDQwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcclxuICAvKiBib3JkZXItc3R5bGU6IGRhc2hlZDsgKi9cclxufVxyXG5cclxuLnByb2ZpbGVfaW1hZ2Uge1xyXG4gIG1heC13aWR0aDoxMDAlO1xyXG4gIG1heC1oZWlnaHQ6MTAwJTtcclxuICBmbG9hdDogbGVmdDtcclxuICBtYXJnaW46IDIwcHg7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxufVxyXG5cclxuLnByb2ZpbGVfaW5mbyB7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICBmb250OiBib2xkIDE0cHggQXJpYWw7XHJcbiAgY29sb3I6ICMwMDAwMDA7XHJcbiAgLyogYm9yZGVyLXN0eWxlOiBkYXNoZWQ7ICovXHJcbiAgLyogd2lkdGg6IDUwJTsgKi9cclxufVxyXG5cclxuaDEge1xyXG4gIGZvbnQ6IGJvbGQgMThweCBBcmlhbDtcclxuICAvKiBtYXJnaW46IDA7ICovXHJcbiAgbWFyZ2luLWxlZnQ6IDMwO1xyXG59XHJcblxyXG4uYmcge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnL2Fzc2V0cy9waWN0dXJlcy9iYWNrZ3JvdW5kLmpwZycpO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
